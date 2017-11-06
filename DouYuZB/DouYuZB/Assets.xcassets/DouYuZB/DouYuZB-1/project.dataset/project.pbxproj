@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		4AEA69CF1FB0580100A901FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA69CE1FB0580100A901FB /* AppDelegate.swift */; };
+		4AEA69D11FB0580100A901FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA69D01FB0580100A901FB /* ViewController.swift */; };
 		4AEA69D41FB0580100A901FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEA69D21FB0580100A901FB /* Main.storyboard */; };
 		4AEA69D61FB0580100A901FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AEA69D51FB0580100A901FB /* Assets.xcassets */; };
 		4AEA69D91FB0580100A901FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEA69D71FB0580100A901FB /* LaunchScreen.storyboard */; };
 		4AEA69E41FB0580100A901FB /* DouYuZBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA69E31FB0580100A901FB /* DouYuZBTests.swift */; };
 		4AEA69EF1FB0580100A901FB /* DouYuZBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEA69EE1FB0580100A901FB /* DouYuZBUITests.swift */; };
-		4AEA69FD1FB0602900A901FB /* classes in Resources */ = {isa = PBXBuildFile; fileRef = 4AEA69FC1FB0602900A901FB /* classes */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 /* Begin PBXFileReference section */
 		4AEA69CB1FB0580100A901FB /* DouYuZB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DouYuZB.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEA69CE1FB0580100A901FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4AEA69D01FB0580100A901FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4AEA69D31FB0580100A901FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4AEA69D51FB0580100A901FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AEA69D81FB0580100A901FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,7 +47,6 @@
 		4AEA69EA1FB0580100A901FB /* DouYuZBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DouYuZBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEA69EE1FB0580100A901FB /* DouYuZBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DouYuZBUITests.swift; sourceTree = "<group>"; };
 		4AEA69F01FB0580100A901FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4AEA69FC1FB0602900A901FB /* classes */ = {isa = PBXFileReference; lastKnownFileType = folder; path = classes; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		4AEA69CD1FB0580100A901FB /* DouYuZB */ = {
 			isa = PBXGroup;
 			children = (
-				4AEA69FC1FB0602900A901FB /* classes */,
 				4AEA69CE1FB0580100A901FB /* AppDelegate.swift */,
+				4AEA69D01FB0580100A901FB /* ViewController.swift */,
 				4AEA69D21FB0580100A901FB /* Main.storyboard */,
 				4AEA69D51FB0580100A901FB /* Assets.xcassets */,
 				4AEA69D71FB0580100A901FB /* LaunchScreen.storyboard */,
@@ -233,7 +233,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEA69D91FB0580100A901FB /* LaunchScreen.storyboard in Resources */,
-				4AEA69FD1FB0602900A901FB /* classes in Resources */,
 				4AEA69D61FB0580100A901FB /* Assets.xcassets in Resources */,
 				4AEA69D41FB0580100A901FB /* Main.storyboard in Resources */,
 			);
@@ -260,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AEA69D11FB0580100A901FB /* ViewController.swift in Sources */,
 				4AEA69CF1FB0580100A901FB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
